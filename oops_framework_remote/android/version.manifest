@@ -1,1 +1,6 @@
-{"packageUrl":"https://github.com/richardwang9950/hot_res/tree/main/oops_framework_remote/android/1.0.0.2","version":"1.0.0.2","remoteManifestUrl":"https://github.com/richardwang9950/hot_res/tree/main/oops_framework_remote/android/project.manifest","remoteVersionUrl":"https://github.com/richardwang9950/hot_res/tree/main/oops_framework_remote/android/version.manifest"}
+{
+	"packageUrl": "https://github.com/richardwang9950/hot_res/tree/main/oops_framework_remote/android/1.0.0.2",
+	"version": "1.0.0.2",
+	"remoteManifestUrl": "https://github.com/richardwang9950/hot_res/blob/main/oops_framework_remote/android/project.manifest",
+	"remoteVersionUrl": "https://github.com/richardwang9950/hot_res/blob/main/oops_framework_remote/android/version.manifest"
+}
