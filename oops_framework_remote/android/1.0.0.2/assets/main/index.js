@@ -8942,6 +8942,7 @@ System.register("chunks:///_virtual/Hot.ts", ['cc', './Oops.ts'], function (expo
 
         // 检查更新
         checkUpdate() {
+          console.log("检查更新");
           if (!this.assetsMgr) {
             console.log('【热更新】请先初始化');
             return;
@@ -8973,6 +8974,7 @@ System.register("chunks:///_virtual/Hot.ts", ['cc', './Oops.ts'], function (expo
         onHotUpdateCallBack(event) {
           var _this$options2, _this$options3;
           let code = event.getEventCode();
+          console.log("onHotUpdateCallBack", code);
           switch (code) {
             case native.EventAssetsManager.ALREADY_UP_TO_DATE:
               console.log("【热更新】当前版本与远程版本一致且无须更新");
@@ -9000,14 +9002,15 @@ System.register("chunks:///_virtual/Hot.ts", ['cc', './Oops.ts'], function (expo
               this.onUpdateFinished();
               break;
             default:
-              this.onUpdateFailed(code);
+              this.onUpdateFailed(event);
               break;
           }
         }
-        onUpdateFailed(code) {
+        onUpdateFailed(event) {
           var _this$options5;
+          console.log(event);
           this.assetsMgr.setEventCallback(null);
-          ((_this$options5 = this.options) == null ? void 0 : _this$options5.onUpdateFailed) && this.options.onUpdateFailed(code);
+          ((_this$options5 = this.options) == null ? void 0 : _this$options5.onUpdateFailed) && this.options.onUpdateFailed(event.getEventCode());
         }
         onUpdateFinished() {
           var _this$options6;
