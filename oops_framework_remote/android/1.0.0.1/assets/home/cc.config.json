@@ -1,0 +1,90 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "home",
+    "deps": [
+        "resources"
+    ],
+    "uuids": [
+        "0afc0d0a6",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "65ef8d70-a15d-4a07-965d-a7d7c83d3776",
+        "70fc8740-e492-4e31-92fe-5a6d02440fe5",
+        "70fc8740-e492-4e31-92fe-5a6d02440fe5@6c48a",
+        "70fc8740-e492-4e31-92fe-5a6d02440fe5@f9941",
+        "74c79e69-5ec5-4966-8119-0a4b96ef3d00",
+        "81ea9f29-d9bc-49c3-aff1-3d82251ffe6b",
+        "8bd3117e-2b8e-43d7-93fd-eedc4a55fe91",
+        "ca5ccccb-d1dc-438a-9bba-e0bd62d73070",
+        "ca5ccccb-d1dc-438a-9bba-e0bd62d73070@6c48a",
+        "ca5ccccb-d1dc-438a-9bba-e0bd62d73070@f9941",
+        "f9cfbca9-9f35-4dda-8925-64e34e6e9802@f9941"
+    ],
+    "paths": {
+        "81ea9f29-d9bc-49c3-aff1-3d82251ffe6b": [
+            "prefab/home1",
+            "cc.Prefab"
+        ],
+        "65ef8d70-a15d-4a07-965d-a7d7c83d3776": [
+            "prefab/home2",
+            "cc.Prefab"
+        ],
+        "74c79e69-5ec5-4966-8119-0a4b96ef3d00": [
+            "sound/music1",
+            "cc.AudioClip"
+        ],
+        "8bd3117e-2b8e-43d7-93fd-eedc4a55fe91": [
+            "sound/music2",
+            "cc.AudioClip"
+        ],
+        "ca5ccccb-d1dc-438a-9bba-e0bd62d73070": [
+            "texture/home1",
+            "cc.ImageAsset"
+        ],
+        "ca5ccccb-d1dc-438a-9bba-e0bd62d73070@6c48a": [
+            "texture/home1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "ca5ccccb-d1dc-438a-9bba-e0bd62d73070@f9941": [
+            "texture/home1/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "70fc8740-e492-4e31-92fe-5a6d02440fe5": [
+            "texture/home2",
+            "cc.ImageAsset"
+        ],
+        "70fc8740-e492-4e31-92fe-5a6d02440fe5@6c48a": [
+            "texture/home2/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "70fc8740-e492-4e31-92fe-5a6d02440fe5@f9941": [
+            "texture/home2/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {
+        "0afc0d0a6": [
+            "70fc8740-e492-4e31-92fe-5a6d02440fe5@6c48a",
+            "ca5ccccb-d1dc-438a-9bba-e0bd62d73070@6c48a"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "0",
+        "f9cfbca9-9f35-4dda-8925-64e34e6e9802@f9941",
+        "0"
+    ],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

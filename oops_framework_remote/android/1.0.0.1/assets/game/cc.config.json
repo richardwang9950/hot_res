@@ -1,0 +1,90 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "game",
+    "deps": [
+        "resources"
+    ],
+    "uuids": [
+        "0da0559d-7b2e-4a4c-b761-bed7d2d6d52e",
+        "0f97185c0",
+        "16ad13d8-5994-440f-b623-0c5a7e50dcf3",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "2e4ee0e4-5b5e-4381-950f-67a4a7f35b54",
+        "c2c2c397-0af4-4428-b678-644ee0f00b36",
+        "c2c2c397-0af4-4428-b678-644ee0f00b36@6c48a",
+        "c2c2c397-0af4-4428-b678-644ee0f00b36@f9941",
+        "d0090d90-91f8-4463-ad5b-5c1a4db921fc",
+        "d0090d90-91f8-4463-ad5b-5c1a4db921fc@6c48a",
+        "d0090d90-91f8-4463-ad5b-5c1a4db921fc@f9941",
+        "d1d81cd7-c37e-4d2f-a760-bdb0fd7a724c",
+        "f9cfbca9-9f35-4dda-8925-64e34e6e9802@f9941"
+    ],
+    "paths": {
+        "2e4ee0e4-5b5e-4381-950f-67a4a7f35b54": [
+            "prefab/game1",
+            "cc.Prefab"
+        ],
+        "d1d81cd7-c37e-4d2f-a760-bdb0fd7a724c": [
+            "prefab/game2",
+            "cc.Prefab"
+        ],
+        "16ad13d8-5994-440f-b623-0c5a7e50dcf3": [
+            "sound/music1",
+            "cc.AudioClip"
+        ],
+        "0da0559d-7b2e-4a4c-b761-bed7d2d6d52e": [
+            "sound/music2",
+            "cc.AudioClip"
+        ],
+        "d0090d90-91f8-4463-ad5b-5c1a4db921fc": [
+            "texture/game1",
+            "cc.ImageAsset"
+        ],
+        "d0090d90-91f8-4463-ad5b-5c1a4db921fc@6c48a": [
+            "texture/game1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "d0090d90-91f8-4463-ad5b-5c1a4db921fc@f9941": [
+            "texture/game1/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c2c2c397-0af4-4428-b678-644ee0f00b36": [
+            "texture/game2",
+            "cc.ImageAsset"
+        ],
+        "c2c2c397-0af4-4428-b678-644ee0f00b36@6c48a": [
+            "texture/game2/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "c2c2c397-0af4-4428-b678-644ee0f00b36@f9941": [
+            "texture/game2/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {
+        "0f97185c0": [
+            "c2c2c397-0af4-4428-b678-644ee0f00b36@6c48a",
+            "d0090d90-91f8-4463-ad5b-5c1a4db921fc@6c48a"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "0",
+        "f9cfbca9-9f35-4dda-8925-64e34e6e9802@f9941",
+        "0"
+    ],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}
